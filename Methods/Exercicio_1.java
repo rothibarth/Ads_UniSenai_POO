@@ -39,13 +39,22 @@ public class Exercicio_1 {
 
 		if (nota >= 7) {
 			JOptionPane.showMessageDialog(null, "Parabens você está aprovado!!" , null, JOptionPane.INFORMATION_MESSAGE);
-		} else if (nota >= 5 || nota <= 6) {
+		} else if (nota >= 5) {
 			JOptionPane.showMessageDialog(null, "Uma pena você está em recuperação !!!", null, JOptionPane.INFORMATION_MESSAGE);
-
 		} else {
 			JOptionPane.showMessageDialog(null, "Uma pena você está reprovado !!!!!!", null, JOptionPane.INFORMATION_MESSAGE);
 
 		}
+		
+		/*
+		if (nota < 5) {
+			JOptionPane.showMessageDialog(null, "Uma pena você está reprovado !!!!!!", null, JOptionPane.INFORMATION_MESSAGE);
+		} else if (nota < 7) {
+			JOptionPane.showMessageDialog(null, "Uma pena você está em recuperação !!!", null, JOptionPane.INFORMATION_MESSAGE);
+		} else {
+			JOptionPane.showMessageDialog(null, "Parabens você está aprovado!!" , null, JOptionPane.INFORMATION_MESSAGE);
+		}
+		*/
 	}
 
 }

@@ -22,18 +22,15 @@ public class Exercicio_2 {
 
 	public static String armazena_telefone() {
 
-		String numero_telefone = "";
+		String numero_telefone = ""; 
 
-		numero_telefone = JOptionPane.showInputDialog("Informe seu número de telefone(somente os numeros sem caracter especial): ");
+		numero_telefone = JOptionPane.showInputDialog("Informe seu número de telefone(11 digitos): ");
 		
-		//if(numero_telefone.matches("0-11")) {
+		while(numero_telefone.length() != 11) {
 			
-		//	return numero_telefone;
+			numero_telefone = JOptionPane.showInputDialog("Você digitou um numero diferente de 11 !!! Informe seu número de telefone(11 digitos): ");
 
-		//}else {
-			//numero_telefone = JOptionPane.showInputDialog("Você informou um numero maior que 11 digitos !! Informe seu número de telefone(somente os numeros sem caracter especial): ");
-
-		//}
+		}
 		
 		return numero_telefone;
 
