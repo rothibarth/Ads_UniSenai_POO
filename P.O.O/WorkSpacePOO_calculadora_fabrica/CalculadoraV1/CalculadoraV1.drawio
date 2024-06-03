@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2023-10-04T00:02:29.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="LnxVo9xIWsxSGL38qt1k" version="22.0.2" type="google" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="calculadoraV1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Principal" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="214" y="60" width="400" height="260" as="geometry">
+            <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry y="20" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="+main(args:String[]): void&#xa;&#xa;solicitaOperacao(): int&#xa;&#xa;solicitaNumero(ordem: String) : double&#xa;&#xa;calculaSoma(num1 : double, num2 : double) : double&#xa;&#xa;calculaSubtracao(num1 : double, num2 : double) : double&#xa;&#xa;calculaMultiplicacao(num1 : double, num2 : double) : double&#xa;&#xa;calculaDivisao(num1 : double, num2 : double) : double&#xa;&#xa;mostraResultado(resultado: dobule, operacao: int) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry y="28" width="400" height="232" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kWB5ETlthMe-Wk0hbwqz" name="calculadoraV2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pr1irMd1gf7rGE4z88w2-1" value="Principal" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="10" width="400" height="190" as="geometry">
+            <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pr1irMd1gf7rGE4z88w2-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pr1irMd1gf7rGE4z88w2-1">
+          <mxGeometry y="20" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1irMd1gf7rGE4z88w2-3" value="+main(args:String[]): void&#xa;&#xa;calculaSoma(num1 : double, num2 : double) : double&#xa;&#xa;calculaSubtracao(num1 : double, num2 : double) : double&#xa;&#xa;calculaMultiplicacao(num1 : double, num2 : double) : double&#xa;&#xa;calculaDivisao(num1 : double, num2 : double) : double&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pr1irMd1gf7rGE4z88w2-1">
+          <mxGeometry y="28" width="400" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1irMd1gf7rGE4z88w2-8" value="EntradaSaida" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="340" width="400" height="140" as="geometry">
+            <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pr1irMd1gf7rGE4z88w2-9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pr1irMd1gf7rGE4z88w2-8">
+          <mxGeometry y="20" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1irMd1gf7rGE4z88w2-10" value="+ solicitaOperacao(): int&#xa;&#xa;+ solicitaNumero(ordem: String) : double&#xa;&#xa;+ mostraResultado(resultado: dobule, operacao: int) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pr1irMd1gf7rGE4z88w2-8">
+          <mxGeometry y="28" width="400" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1irMd1gf7rGE4z88w2-12" value="USE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="258" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S5KwR-33y1EmblOMHXMA-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.425;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.44;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="pr1irMd1gf7rGE4z88w2-3" target="pr1irMd1gf7rGE4z88w2-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="290" as="sourcePoint" />
+            <mxPoint x="410" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

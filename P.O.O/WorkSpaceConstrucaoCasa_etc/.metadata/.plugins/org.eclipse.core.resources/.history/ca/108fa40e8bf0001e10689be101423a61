@@ -1,0 +1,52 @@
+package visualizacao;
+
+import javax.swing.JComboBox;
+import javax.swing.JOptionPane;
+
+public class EntradaSaida {
+
+	public static int solicitaOpcao() {
+
+		String[] opcoes = { "Cadastrar Produto", "Listar Produtos Cadastrados", "Encerrar programa"};
+
+		JComboBox<String> menu = new JComboBox<String>(opcoes);
+		JOptionPane.showConfirmDialog(null, menu, "Selecione a opção desejada", JOptionPane.OK_CANCEL_OPTION);
+
+		return menu.getSelectedIndex();
+	}
+	
+	public static int codigoProduto() {
+		
+		int codigoProduto = Integer.parseInt(JOptionPane.showInputDialog("Informe o codigo do produto: "));
+		
+		return codigoProduto;
+		
+	}
+	
+	public static String descricaoProduto() {
+		
+		String descricaoProduto = JOptionPane.showInputDialog("Informe a descrição do produto: ");
+		
+		return descricaoProduto;
+	}
+	
+	
+	public static int precoProduto() {
+		
+		int preco = Integer.parseInt(JOptionPane.showInputDialog("Informe o preço do produto"));
+		
+		return preco;
+	}
+	
+	public static  exibeListaCadastro(listar) {
+		
+		JOptionPane.showMessageDialog(null, "A lista será apresentadad abaixo: " + listar);
+
+	}
+
+	public static void exibeMsgEncerraPrograma() {
+
+		JOptionPane.showMessageDialog(null, "O programa será encerrado!! ");
+
+	}
+}

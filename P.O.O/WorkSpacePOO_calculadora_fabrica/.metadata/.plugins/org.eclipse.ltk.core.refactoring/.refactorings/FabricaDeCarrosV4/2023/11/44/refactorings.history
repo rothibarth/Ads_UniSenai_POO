@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Contrato&apos; to &apos;IContrato&apos;&#x0D;&#x0A;- Original project: &apos;FabricaDeCarrosV4&apos;&#x0D;&#x0A;- Original element: &apos;Contrato&apos;&#x0D;&#x0A;- Renamed element: &apos;IContrato&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Contrato&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Contrato.java[Contrato" matchStrategy="1" name="IContrato" qualified="false" references="true" similarDeclarations="false" stamp="1698878862794" textual="false" version="1.0"/>
+</session>

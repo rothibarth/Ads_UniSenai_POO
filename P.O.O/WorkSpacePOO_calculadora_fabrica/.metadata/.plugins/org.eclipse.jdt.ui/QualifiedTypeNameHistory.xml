@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="modelo.Divisao"/>
+    <fullyQualifiedTypeName name="modelo.Multiplicacao"/>
+    <fullyQualifiedTypeName name="modelo.Operacoes"/>
+    <fullyQualifiedTypeName name="modelo.Soma"/>
+    <fullyQualifiedTypeName name="modelo.Subtracao"/>
+    <fullyQualifiedTypeName name="visualizacao.EntradaSaida"/>
+    <fullyQualifiedTypeName name="View.EntradaSaida"/>
+</qualifiedTypeNameHistroy>
